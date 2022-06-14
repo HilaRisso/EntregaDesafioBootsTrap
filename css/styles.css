@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    padding: 1%;
+    background-color:azure;
+
+}
+
+header img{
+    height: 8vh;
+    border-radius: 50%;
+}
+
+img {
+    height: 88vh;
+}
+
+.secciones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1%;
+    margin: 10px;
+}
+
+.secIzq {
+    display: flex;
+    flex-direction: row;
+}
+
+.secDer {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.hipervinculos {
+    text-decoration: none;
+}
